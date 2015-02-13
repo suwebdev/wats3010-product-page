@@ -46,6 +46,7 @@ money on it, and they want it to be featured prominently.)
     product page.
 3.  Create at least one other project planning document. You may choose from
     this list:
+    
         * information architecture diagram
         * project timeline (represented in any way)
         * design comps
