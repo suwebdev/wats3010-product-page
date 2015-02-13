@@ -10,11 +10,11 @@ sense of it all: This is a completely useless company and product in many ways.
 
 But that makes it all the more fun, right?
 
-As you work through this project, you will address several different
+As you work through this project, you will address six different
 requirements:
 
 1. Introduce the product
-2. Provide access to the explainer video
+2. Provide access to the explainer video (https://www.youtube.com/watch?v=L48g1ZWLMdo)
 3. List features
 4. Provide user testimonials
 5. Provide ability for users to share links to the product page
@@ -46,9 +46,86 @@ money on it, and they want it to be featured prominently.)
     product page.
 3.  Create at least one other project planning document. You may choose from
     this list:
-    
-        * information architecture diagram
-        * project timeline (represented in any way)
-        * design comps
+
+    * information architecture diagram
+    * project timeline (represented in any way)
+    * design comps
+    * any images or illustrations you are planning to add to the site
 
 All of these documents should be placed in the design folder.
+
+Part Two: Product Page Preview
+------------------------------
+
+The Product Page Preview is really just a check-in point on your build process.
+It's common to put up work that is in-progress for feedback from the team and
+your clients. Since we are spending two weeks to build out this page, we should
+take the time to post up stuff and see how things are coming together.
+
+For this phase, your only deliverable is the in-progress site deployed to
+Github Pages.
+
+**Requirements**
+
+1.  In-progress site build deployed to the ``gh-pages`` branch and visible on
+    your user.github.io site.
+2.  Demonstrated progress on:
+
+    * The video should be embedded
+    * You should have your content placed into the page
+    * You should have partial styles applied to the page
+
+Part Three: Product Page
+------------------------
+
+Your final product should be a finished, polished Product Page. This is a very
+common style of page, and you should strive to create a page that fits into the
+style and approach of other long-scroll product pages.
+
+Pay a lot of attention to the details here. You have two weeks to build, so
+be sure to take care of the small items and track down solutions to issues. It's
+better to pull back on ambition in order to create something more polished.
+
+Be sure you have addressed the six primary requirements of the page:
+
+1. Introduce the product
+2. Provide access to the explainer video
+3. List features
+4. Provide user testimonials
+5. Provide ability for users to share links to the product page
+6. Call to action link to get user to buy product
+
+Notes About Assets
+---------------------
+
+This repository contains an ``assets`` folder that has logos for the company,
+the source text, and some additional assets you may wish to use. You are not
+limited to these assets, and you have probably not been provided with all the
+assets you will need to make your page look great. You are expected to seek
+out elements that fit with your design goals and use them appropriately.
+
+**Video Explainer**
+
+The video explainer for the API Superstore is located here:
+https://www.youtube.com/watch?v=L48g1ZWLMdo You should follow the YouTube embed
+directions to embed the video into the page with appropriate settings and
+size. Take into account the sizes YouTube will let you use to embed the video
+so you can design around those constraints.
+
+**Bootstrap CSS Framework**
+
+You have been provided with the Bootstrap CSS Framework
+(http://getbootstrap.com) linked into your HTML
+file. This framework gives you a range of styles you can leverage if you choose.
+You can use Bootstrap styles to accomplish a wide range of goals, and it can
+help you get a more professional feeling in your site.
+
+Bootstrap can be both a blessing and a curse. It will make some things very
+easy, but you may find yourself having trouble overriding some elements of the
+style if you veer away from what the framework does by default. This is the
+tradeoff of using a robust framework like this.
+
+Note: You are NOT obligated to use Bootstrap. If you feel it is too much to
+think about on this assignment, you are free to ignore it (just remove the
+``link`` tags in the ``head`` of your index.html) or replace it with another
+CSS framework. (There are dozens.)
