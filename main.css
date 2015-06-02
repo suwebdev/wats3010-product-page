@@ -1,8 +1,189 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
+html {
+	margin: 0;
+	padding: 0;
+	}
 body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+	font-family: 12px; georgia, sans-serif;
+	line-height: 1.88889;
+	color: #555753;
+	margin: 0;
+	padding: 0;
+	}
+	.page-wrapper {
+	
+	padding: 0 175px 0 110px;
+	margin: 0;
+	position: relative;
+	}
+header {
+border-radius: 5px;
+    border: 1px solid #eee;
+    padding: 10px;
+
+	width: 90%;
+	background: transparent url(assets/logos/api-logo.jpg) no-repeat top left;
+	background-size: cover;
+	background-position: center center;
+	margin-top: 0;
+	display: block;
+	margin-bottom: 20px;
+
+	height: 287px;
+	float: left;
+
+	text-indent: 5%;
+	white-space: nowrap;
+	overflow: visible;
+
+	animation: animatedBackground 40s linear infinite;
+	}
+	header h1 {
+	border-radius: 15px;
+    border: 1px solid #eee;
+    padding: 10px;
+	background: transparent url(assets/logos/sqlogo.jpg) no-repeat top left;
+	margin-top: 10px;
+	display: block;
+	width: 190px;
+	height: 167px;
+	float: left;
+	
+
+	text-indent: 5%;font-size: 50px;
+	white-space: nowrap;
+	overflow: visible;
+	}
+	header h2:last-child {
+  color: #FFF;
+  font-size: 24px; font-family: georgia;
+}
+	
+.photo{
+max-width: 350px;
+max-height: 300px;
+float: left;
+}
+.nav {
+margin: 0;
+    width: 100%;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #98bf21;
+    text-align: center;
+    padding: 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav li{
+list-style-type: none;
+display: inline-block;
+}
+
+.nav a:link, a:visited {
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #98bf21;
+    text-align: center;
+    padding: 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav a:hover, a:active {
+    background-color: #7A991A;
+}
+		
+.content{
+width: 35%;
+float: left;
+background: #eee;
+margin: 5px;
+}
+.test {
+width: 35%;
+float: left;
+background-color: #fff;
+margin: 10px;
+}
+#testis{
+float: left;
+width: 35%;
+clear: both;
+background-color: #fff;
+}
+.buy{
+float: left;
+}
+.btn {
+width: 200px;
+}
+.social {
+float: left;
+}
+#download{
+margin: 10px;
+float: left;
+width: 60%;
+}
+.social-links li{
+list-style-type: none;
+display: inline-block;
+}
+#side{
+margin-top: 0;
+float: right;
+width: 25%;
+background-color: none;
+clear: all;
+}
+#side h2{
+text-align: center;
+}
+#side ul li{
+list-style-type: none;
+height: 100%;
+}
+
+#footer{
+width: 100%;
+background: #333; url(assets/logos/footerbg.gif) no-repeat top-left;
+float: bottom;
+clear: left;
+}
+.menu {
+backgroun-color: #eee;
+padding: 10px;
+display: inline;
+font-weight: bold;
+float: bottom;
+}
+.menu li{
+list-style-type: none;
+padding: 10px;
+display: inline-block;
+}
+.menu li a{
+color: #fff;
+font-weight: bold;
+text-decoration: none;
+}
+.menu a:link, a:visited {
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: none;
+    text-align: center;
+    padding: 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu a:hover, a:active {
+    background-color: #7A991A;
 }
