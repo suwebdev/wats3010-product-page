@@ -2,7 +2,32 @@
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
 body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+	font-family: "open sans condensed";
 }
+
+#map {
+	position: relative;
+	float: left;
+   	width: 500px;
+   	height: 400px;
+}
+.location {
+	background: #E8E8E8;
+	height: 400px;
+}
+.contact-info {
+	position: relative;
+	text-align: center;
+	padding-top: 75px;
+
+}
+
+h3 {
+	font-size: 80px;
+}
+
+.contact-info p {
+	padding-left: 30px;
+	font-size: 20px;
+}
+

@@ -6,25 +6,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- TODO: Add proper head tag to provide a page description for search
              engines. -->
+		<meta name="description" content="API Superstore - catalog interface for API's">
         <title>API Superstore</title>
         <!-- Bootstrap CSS Framework -->
         <!-- You can remove the ``link`` tags below if you don't want to use
              Bootstrap with your site. If you choose to use Bootstrap, be sure
              to reference the resources and the Bootstrap official
-             documentation: http://getbootstrap.com.
+             documentation: http://getbootstrap.com. -->
 
-             Please Note: This repo does not include the Bootstrap Javascript
-             plugins, so you cannot use the features documented under
-             "Javascript" on the Bootstrap documentation site. -->
+
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
-        <!-- End Bootstrap CSS Framework -->
+		<link rel="stylesheet" href="main.css">
 
         <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
              support bookmarking. -->
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link rel="favicon" href="favicon.ico">
-
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    	<script src="https://maps.googleapis.com/maps/api/js"></script>
+     	<script>
+      		function initialize() {
+        	var mapCanvas = document.getElementById('map');
+        	var mapOptions = {
+          		center: new google.maps.LatLng(47.6095756, -122.3177647),
+          		zoom: 14,
+          		mapTypeId: google.maps.MapTypeId.ROADMAP
+        		}
+        		var map = new google.maps.Map(mapCanvas, mapOptions)
+     			}
+      			google.maps.event.addDomListener(window, 'load', initialize);
+    	</script> 
     </head>
     <body>
         <!-- Note: If you do not see a lamp icon in the heading below
@@ -44,6 +56,16 @@
 
         <!-- TODO: Create an area to show company contact info (phone,
              location, etc.) -->
+		<div class="location">
+		<div id="map"></div>
+		<div class="contact-info">
+			<h3>Contact us</h3>
+			<p>We are located at 901 12th Ave. Seattle, WA 98121.</p>
+			<p>888-888-8888</p>
+			<p>sales@apisuperstore.com</p>
+		</div>
+		</div>
+
 
         <!-- TODO: Create an area that allows users to Share links to the
              page. -->
