@@ -17,15 +17,15 @@
 
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
-		<link rel="stylesheet" href="main.css">
+				<link rel="stylesheet" href="main.css">
 
         <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
              support bookmarking. -->
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link rel="favicon" href="favicon.ico">
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-    	<script src="https://maps.googleapis.com/maps/api/js"></script>
-     	<script>
+				<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    		<script src="https://maps.googleapis.com/maps/api/js"></script>
+     		<script>
       		function initialize() {
         	var mapCanvas = document.getElementById('map');
         	var mapOptions = {
@@ -36,14 +36,24 @@
         		var map = new google.maps.Map(mapCanvas, mapOptions)
      			}
       			google.maps.event.addDomListener(window, 'load', initialize);
-    	</script> 
+    		</script> 
     </head>
     <body>
         <!-- Note: If you do not see a lamp icon in the heading below
              when you view this file in a web browser, then there is an issue
              with how Bootstrap is linked to this page. -->
-        <h1><span class="glyphicon glyphicon-lamp"></span> Hello World!</h1>
-        <!-- TODO: Populate this page with all the content you deem
+    <header>
+		<h1>API Superstore</h1>
+		</header>
+		<div class="navigation">
+			<ul>
+				<li class="btn btn-info">Info</li>
+				<li class="btn btn-info">What We Do</li>
+				<li class="btn btn-info">Learn More</li>
+				<li class="btn btn-info">Location</li>
+				<li class="btn btn-info">Sign Up</li>
+		</div>
+		<!-- TODO: Populate this page with all the content you deem
              necessary to create a compelling product page! -->
 
         <!-- TODO: Create an area to put the explainer video. -->

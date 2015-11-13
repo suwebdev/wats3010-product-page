@@ -5,6 +5,21 @@ body {
 	font-family: "open sans condensed";
 }
 
+header {
+	background: #333333;
+	color: #FFFFFF;
+	height: 100px;
+}
+h1 {
+	font-size: 80px;
+	padding-left: 20px;
+}
+
+.navigation {
+	position: relative;
+	background: #E8E8E8;
+	padding-left: 30%;
+}
 #map {
 	position: relative;
 	float: left;
@@ -12,10 +27,11 @@ body {
    	height: 400px;
 }
 .location {
-	background: #E8E8E8;
+	background: #FFFFFF;
 	height: 400px;
 }
 .contact-info {
+	
 	position: relative;
 	text-align: center;
 	padding-top: 75px;
