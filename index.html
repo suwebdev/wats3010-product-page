@@ -36,15 +36,12 @@
         		var map = new google.maps.Map(mapCanvas, mapOptions)
      			}
       			google.maps.event.addDomListener(window, 'load', initialize);
-    		</script> 
+    		</script>
     </head>
     <body>
         <!-- Note: If you do not see a lamp icon in the heading below
              when you view this file in a web browser, then there is an issue
              with how Bootstrap is linked to this page. -->
-    <header>
-		<h1>API Superstore</h1>
-	</header>
 		<div class="navigation">
 			<ul>
 				<li class="btn btn-primary-outline">Info</li>
@@ -53,43 +50,61 @@
 				<li class="btn btn-primary-outline">Location</li>
 				<li class="btn btn-primary-outline">Sign Up</li>
 		</div>
-		
+
 		<div class="intro">
-			<img src="/logos/api_superstore_sqlogo_ry.png"/>
-			<p class="what-we-do">A collection of Application Programming Interfaces specifically designed to fit your 
+      <div class="wrapper">
+			<img class="logo" src="assets/logos/api_superstore_sqlogo_ry.png"/>
+      <div class="intro-text">
+      <h3>Who we are</h3>
+			<p class="what-we-do">A collection of Application Programming Interfaces specifically designed to fit your
 				needs.</p>
+      </div>
+      </div>
 		</div>
-			
+
 		<div class="integration">
-			<p class="int">Our smooth integration makes it easy to get started! Just enter your information below, 
-				browse our API catalog, choose a library that best fits your businesses needs and click to purchase 
+      <div class="wrapper">
+      <div class="integration-text">
+      <h3>Integration</h3>
+			<p class="int">Our smooth integration makes it easy to get started! Just enter your information below,
+				browse our API catalog, choose a library that best fits your businesses needs and click to purchase
 				a link to the API providers website.</p>
-			<img src="/assets/misc/SiteCopyforAPISuperstore.com.pdf"/>
+      </div>
+			<img class="screen1" src="assets/misc/screen1.png"/>
+      </div>
 		</div>
-			
+
 		<div class="explainer-vid">
-			<p class="exp-vid1">Never search for API's again!  API Superstore makes it easy by being a one-stop-shop 
-				for all of your businesses Application Programming Interface needs.</p>
-			<p class="exp-vid2">Save time with API Superstore's revolutionary technology which puts the power in your 
-				hands and provides all of the necessary tools to make you competitive in today's digital marketplace.</p>
-			<p class="exp-vid3">Ready to get started?  Contact us or fill out the form below to subscribe to API Superstore 
+      <div class="wrapper">
+      <div class="explainer-vid-text">
+      <h3> About Us</h3>
+			<p class="exp-vid1">Never search for API's again!  API Superstore makes it easy by being a one-stop-shop
+				for all of your businesses Application Programming Interface needs.</p><br>
+			<p class="exp-vid2">Save time with API Superstore's revolutionary technology which puts the power in your
+				hands and provides all of the necessary tools to make you competitive in today's digital marketplace.</p><br>
+			<p class="exp-vid3">Ready to get started?  Contact us or fill out the form below to subscribe to API Superstore
 				today and take control of your businesses online reputation!</p>
+      </div>
+      </div>
 		</div>
-			
+
 		<div class="testimonials">
+      <div class="wrapper">
+      </div>
 		</div>
-			
+
 		<div class="location">
+      <div class="wrapper">
 			<div id="map"></div>
 			<div class="contact-info">
 				<h3>Contact us</h3>
-				<p>We are located at 901 12th Ave. Seattle, WA 98121.</p>
+				<p>We are located at 901 12th Ave. Seattle, WA 98121</p>
 				<p>888-888-8888</p>
 				<p>sales@apisuperstore.com</p>
 			</div>
+      </div>
 			</div>
-		</div>
-			
+    <div class="wrapper">
 		<div class="sign-up">
 			<form>
 				<div class="form-group">
@@ -111,9 +126,10 @@
 				<button type="submit" class="submit btn btn-default">Submit</button>
 			</form>
 		</div>
-			
+  </div>
+
 		<footer>
-			<div class="footer">
+			<div class="navigation footer">
 			<ul>
 				<li class="btn btn-primary-outline">Info</li>
 				<li class="btn btn-primary-outline">What We Do</li>
@@ -122,8 +138,8 @@
 				<li class="btn btn-primary-outline">Sign Up</li>
 			</div>
 		</footer>
-			
-			
+
+
 		<!-- TODO: Populate this page with all the content you deem
              necessary to create a compelling product page! -->
 
@@ -137,13 +153,14 @@
 
         <!-- TODO: Create an area to show company contact info (phone,
              location, etc.) -->
-		
+
 
 
         <!-- TODO: Create an area that allows users to Share links to the
              page. -->
 
         <!-- TODO: Create a call to action link to get users to sign up for the
-             service. -->
+         service. -->
+    </div>
     </body>
 </html>

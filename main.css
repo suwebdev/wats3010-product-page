@@ -1,51 +1,151 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
-body {
-	font-family: "open sans condensed";
-}
+/***************
+GENERAL
+***************/
 
-header {
-	background: #333333;
-	color: #FFFFFF;
-	height: 100px;
-}
 h1 {
 	font-size: 80px;
 	padding-left: 20px;
 }
 
-.navigation {
-	position: relative;
-	background: #E8E8E8;
-	padding-left: 30%;
-}
-#map {
-	position: relative;
-	float: left;
-   	width: 500px;
-   	height: 400px;
-}
-.location {
-	background: #FFFFFF;
-	height: 400px;
-}
-.contact-info {
-	
-	position: relative;
-	text-align: center;
-	padding-top: 75px;
-
+body {
+	font-family: "open sans condensed";
 }
 
 h3 {
 	font-size: 80px;
 }
 
+p {
+	font-size: 30px;
+}
+
+/***************
+HEADER
+***************/
+
+header {
+	background: #333333;
+	color: #FFFFFF;
+	height: 100px;
+}
+
+.navigation {
+	position: relative;
+	background: #E8E8E8;
+}
+
+.navigation li:hover {
+	text-decoration: underline;
+	color: gray;
+}
+
+/***************
+INTRO
+***************/
+
+.intro {
+	background: #FDB913;
+}
+
+.logo {
+	position: relative;
+	width: 50%;
+	height: auto;
+}
+
+.intro-text {
+	positon: relative;
+	float: right;
+	width: 50%;
+	text-align: center;
+	padding: 130px 25px 0 25px;
+}
+
+.what-we-do {
+	position: relative;
+}
+
+.wrapper {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/***************
+INTEGRATION
+***************/
+
+.integration {
+	height: 500px;
+	padding-top: 50px;
+}
+
+.integration-text {
+	position: relative;
+	float: left;
+	text-align: center;
+	width: 50%;
+	padding-right: 25px;
+}
+
+.screen1 {
+	padding-left: 25px;
+	width:50%;
+	height: auto;
+}
+
+/***************
+EXPLAINER-VID
+***************/
+
+.explainer-vid-text {
+	width: 50%;
+	text-align: center;
+	margin-left: 50%;
+}
+
+.explainer-vid-text h3 {
+	text-align: center;
+}
+/***************
+TESTIMONIALS
+***************/
+
+/***************
+LOCATION
+***************/
+
+#map {
+	margin-top: 50px;
+	margin-right: 25px;
+	position: relative;
+	float: right;
+  width: 500px;
+	height: 400px;
+}
+.location {
+	background: #FFFFFF;
+	height: 500px;
+}
+.contact-info {
+	margin-top: 30px;
+	width: 50%;
+	position: absolute;
+	text-align: center;
+	padding-top: 75px;
+}
+
 .contact-info p {
 	padding-left: 30px;
 	font-size: 20px;
 }
+
+/***************
+SIGN-UP
+***************/
 
 .form-control {
 	width: 450px;
@@ -55,9 +155,19 @@ h3 {
 	width: 500px;
 	margin-left: auto;
 	margin-right: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .submit {
 	margin-left: auto;
 	margin-right: auto;
+}
+
+/***************
+FOOTER
+***************/
+
+.footer {
+	clear: both;
 }
