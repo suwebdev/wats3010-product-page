@@ -11,7 +11,7 @@ h1 {
 }
 
 body {
-	font-family: "open sans condensed";
+	font-family: "open sans condensed" sans-serif serif;
 }
 
 h3 {
@@ -20,6 +20,12 @@ h3 {
 
 p {
 	font-size: 30px;
+}
+
+.wrapper {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /***************
@@ -33,8 +39,8 @@ header {
 }
 
 .navigation {
-	position: relative;
 	background: #E8E8E8;
+	width: 100%
 }
 
 .navigation li:hover {
@@ -61,17 +67,11 @@ INTRO
 	float: right;
 	width: 50%;
 	text-align: center;
-	padding: 130px 25px 0 25px;
+	padding: 10% 10% 0 10%;
 }
 
 .what-we-do {
 	position: relative;
-}
-
-.wrapper {
-	width: 1200px;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 /***************
