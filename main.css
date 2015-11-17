@@ -54,20 +54,34 @@ INTRO
 
 .intro {
 	background: #FDB913;
+	width: 100%;
+	overflow: hidden;
 }
 
 .logo {
 	position: relative;
+	float: left;
 	width: 50%;
 	height: auto;
 }
 
 .intro-text {
-	positon: relative;
-	float: right;
+	position: relative;
+	float: left;
 	width: 50%;
 	text-align: center;
-	padding: 10% 10% 0 10%;
+	padding: 125px 20px 0 20px;
+}
+
+@media only screen and (max-width: 767px)
+{
+    .logo, .intro-text
+    {
+        display: block;
+        float: none;
+        width: 100%;
+        padding: 20px 0;
+    }
 }
 
 .what-we-do {
@@ -79,7 +93,8 @@ INTEGRATION
 ***************/
 
 .integration {
-	height: 500px;
+	width: 100%;
+	overflow: hidden;
 	padding-top: 50px;
 }
 
@@ -95,6 +110,17 @@ INTEGRATION
 	padding-left: 25px;
 	width:50%;
 	height: auto;
+}
+
+@media only screen and (max-width: 767px)
+{
+    .integration-text, .screen1
+    {
+        display: block;
+        float: none;
+        width: 100%;
+        padding: 20px 0;
+    }
 }
 
 /***************
@@ -129,6 +155,8 @@ LOCATION
 .location {
 	background: #FFFFFF;
 	height: 500px;
+	width: 100%;
+	overflow: hidden;
 }
 .contact-info {
 	margin-top: 30px;
@@ -141,6 +169,17 @@ LOCATION
 .contact-info p {
 	padding-left: 30px;
 	font-size: 20px;
+}
+
+@media only screen and (max-width: 767px)
+{
+    .contact-info, #map
+    {
+        display: block;
+        float: none;
+        width: 100%;
+        padding: 20px 0;
+    }
 }
 
 /***************
