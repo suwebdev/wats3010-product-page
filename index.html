@@ -1,4 +1,4 @@
-<!doctype html>
+<!-- <!doctype html> -->
 <html>
     <head>
         <meta charset="utf-8">
@@ -18,6 +18,8 @@
              "Javascript" on the Bootstrap documentation site. -->
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Montserrat">
         <!-- End Bootstrap CSS Framework -->
 
         <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
@@ -27,23 +29,131 @@
 
     </head>
     <body>
-        <!-- Note: If you do not see a lamp icon in the heading below
-             when you view this file in a web browser, then there is an issue
-             with how Bootstrap is linked to this page. -->
-        <h1><span class="glyphicon glyphicon-lamp"></span> Hello World!</h1>
-        <!-- TODO: Populate this page with all the content you deem
-             necessary to create a compelling product page! -->
-
-        <!-- TODO: Create an area to put the explainer video. -->
+		<div class="container home-page">
+			<div class="row">
+				<div class="col-xs-12">
+        			<h1>API Superstore</h1>
+					<img src="/design/API-superstore-logo.gif" alt="logo">
+				</div>
+				<div class="col-xs-12" id="buttons">
+					<a href="#wwd">O</a>
+					<a href=".testimonials-actual">O</a>
+					<a href=".wwd-list">O</a>
+				</div>
+<!-- 				<div class="col-xs-12" id="button-words">
+					<h2>What We Do</h2>
+					<h2 class="testimonials">Testimonials</h2>
+					<h2 class="video">Video</h2>
+				</div> -->
+			</div>
+		</div>
+		<div class="container sign-up">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1>Interested?</h1>
+					<img src="/design/api-superstore-logo-white-alt.gif" alt="alt-logo">
+				</div>
+			</div>
+		</div>
+		<div class="container what-we-do">
+			<a name="wwd"></a>
+			<div class="row">
+				<div class="col-xs-12" id="wwd-paragraph">
+					<h1>What We Do</h1>
+					<p>Here at the API Superstore, we save you time, and, in turn, we also save you money!
+						Our primary goal is to make your life as easy as possible. To do that, we...</p>
+				</div>
+			</div>
+		</div>
+		<div class="container wwd-list">
+			<div class="row">
+				<div class="col-xs-12" id="wwd-list">
+					<p>Gather APIs that we find online!</p>
+					<p>Reorganize said APIs to fit and accomodate your needs!</p>
+					<p>Sell it back to you at an exorbitant markup!</p>
+				</div>
+			</div>
+		</div>
+		<div class="container testimonials-actual">
+			<div class="row">
+				<div class="col-xs-12" id="test-paragraph">
+					<h1>Testimonials</h1>
+					<p>Wow. This is just the greatest. How did I ever find APIs before this? - Amazon</p>
+<!-- 					<p>Gamechanger. 100 percent. Seriously can't believe 50 Cent hasn't invested in this yet.
+						You nerds better get in on the ground floor. - Facebook</p>
+					<p>Whoa. Wow. This is going to improve the lives of everybody that doesn't know how to use Google. - Google</p>
+					<p>It's like going to Wal-Mart but instead of feeling gross afterwards you just have a bunch of dope APIs! - Twitter</p> -->
+				</div>
+			</div>
+		</div>
+		<div class="container testimonial-slider">
+			<div class="row">
+				<div class="col-xs-12" id="slider">
+					<img id=#amazon src="/design/amazon-campus.jpg" style="  
+					position: absolute;
+    				right: -100px;
+   					 top: 1800px;
+					border-top:5px solid white;
+					}">  
+				</div>
+			</div>
+		</div>
+		<div class="container video-paragraph">
+			<div class="row">
+				<div class="col-xs-12" id="video-exp">
+					<h1>Watch This</h1>
+					<p>And learn more about the service we provide, how it works, and how life-changing
+						it can be!</p>
+				</div>
+			</div>
+		</div>
+		<div class="container video-player">
+			<div class="row">
+				<div class="col-xs-12" id="video-iframe">
+					 <iframe width="585" height="450"
+					src="https://www.youtube.com/embed/L48g1ZWLMdo&index=8&list=PLedjWp3a2wWxsvRXTkbd12pOgVVp6OXNU?controls=1">
+					</iframe>
+				</div>
+			</div>
+		</div>
+		<div class="container contact-page">
+			<div class="row" id="contact-info">
+				<div class="col-xs-4" id=phone>
+					<h1>Phone</h1>
+					<p>208.874.2872</p>
+				</div>
+				<div class="col-xs-4" id=address>
+					<h1>Location</h1>
+					<p>4615 Fremont Avenue N<p>
+					<p>Seattle, WA 98103</p>
+				</div>
+				<div class="col-xs-4" id=email>
+					<h1>Email</h1>
+					<p>tubbystrut@gmail.com</p>
+				</div>
+			</div>
+		</div>
+		<div class="container footer-sign-up">
+			<div class="row">
+				<div class="col=xs=12" id="sign-up-now">
+					<h1>Sign Up Now</h1>
+					<p>Sign up now and join our newsletter! We'll send you funny cat videos!</p>
+					<img src="/design/api-superstore-logo-white-alt.gif" alt="alt-logo" style="
+					    width: 250px;
+    					height: 250px;
+   						position: relative;
+    					left: 460px;
+    					top: 193px;">
+				</div>
+			</div>
+		</div>
+					
+						
+					
 
         <!-- TODO: Create an area to put the long product description. -->
 
-        <!-- TODO: Create an area to put customer testimonials. -->
-
         <!-- TODO: Create an area to show features. -->
-
-        <!-- TODO: Create an area to show company contact info (phone,
-             location, etc.) -->
 
         <!-- TODO: Create an area that allows users to Share links to the
              page. -->

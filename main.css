@@ -1,8 +1,196 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
-body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+.home-page {
+	background-color:white;
+	position:absolute;
+	top:0;
+	left:0;
+	width:585px;
+	height:900px;
+}
+#buttons {
+	position:relative;
+	top:285px;
+	text-align:center;
+	right:38px;
+}
+.home-page .col-xs-12 {
+	position:relative;
+	top:250px;
+	text-align:center;
+}
+#buttons a {
+	color: rgba(0,0,0,0);
+    text-decoration: none;
+    background-color: black;
+    border-radius: 100%;
+	margin-left:60px;
+}
+#button-words {
+	text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 300px;
+    right: 4px;
+}
+#button-words h2 {
+	font-size:12px;
+}
+.testimonials {
+	position:relative;
+	bottom:32px;
+}
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	text-transform:uppercase;
+	font-size:24px;
+}
+.sign-up{
+	background-color:rgb(51, 183, 185);
+	width:585px;
+	height:900px;
+	position:absolute;
+	left:585px;
+}
+.sign-up .col-xs-12 {
+	position:relative;
+	top:250px;
+	text-align:center;
+}
+.sign-up h1 {
+	color:white;
+	text-transform:uppercase;
+	font-size:24px;
+}
+.home-page img {
+	width:200px;
+	height:200px;
+	position:relative;
+	right:7px;
+	top:10px;
+}
+.sign-up img {
+	width:200px;
+	height:200px;
+	position:relative;
+	top:10px;
+}
+/* ------PAGE 2------ */
+.what-we-do {
+    background-color: white;
+    position: absolute;
+    top: 900px;
+    left: 0;
+    width: 585px;
+    height: 450px
+}
+.what-we-do p {
+	width:400px;
+}
+#wwd-paragraph {
+	position: relative;
+    left: 80px;
+    top: 115px;
+    line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.wwd-list {
+	background-color: rgb(108, 182, 229);
+    width: 585px;
+    height: 450px;
+    position: absolute;
+    left: 585px;
+	top:900px;
+	border-top: 5px solid white;
+}
+.wwd-list p {
+	color:white;
+	text-align:center;
+}
+#wwd-list {
+	position: relative;
+    left: 0;
+    top: 115px;
+    line-height: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+.testimonials-actual {
+	background-color: white;
+    position: absolute;
+    top: 1800px;
+    left: 0;
+    width: 585px;
+    height: 450px;
+}
+.testimonials-actual h1 {
+	font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+#test-paragraph {
+	position: relative;
+    left: 80px;
+    top: 115px;
+    line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    width: 380px;
+}
+.video-paragraph {
+	position:absolute;
+	top:1350px;
+	left:0;
+	width:585px;
+	height:450px;
+}
+#video-exp {
+	position: relative;
+    left: 80px;
+    top: 115px;
+    line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
+	width:400px;
+}
+.video-player {
+	position:absolute;
+	top:1350px;
+	width:585px;
+	height:450px;
+	right:0;
+	padding:0;
+	border-top:5px solid white;
+}
+.contact-page {
+	position:absolute;
+	top: 2250px;
+	text-align:center;
+	width:1170px;
+	height:450px;
+}
+#contact-info {
+	position:relative;
+	top:200px;
+	right:10px;
+}
+.footer-sign-up {
+	position:absolute;
+	top:2700px;
+	height:900px;
+	width:1170px;
+	background-color:rgb(51, 183, 185);
+}
+#sign-up-now h1 {
+	    color: white;
+    position: relative;
+    left: 442px;
+    top: 210px;
+    font-size: 40px;
+}
+#sign-up-now p {
+	position: relative;
+    left: 310px;
+    top: 510px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
 }
