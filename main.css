@@ -96,7 +96,7 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 .wwd-list {
-	background-color: rgb(108, 182, 229);
+	background-color: rgb(51, 183, 185);
     width: 585px;
     height: 450px;
     position: absolute;
@@ -116,22 +116,42 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 .testimonials-actual {
-	background-color: white;
+	background-color: rgb(51, 183, 185);
+    height: 150px;
+    width: 1170px;
     position: absolute;
-    top: 1800px;
-    left: 0;
-    width: 585px;
-    height: 450px;
+    top: 1806px;
 }
 .testimonials-actual h1 {
 	font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-size: 24px;
+	color:white;
 }
+.indicators {
+	    position: relative;
+    left: 52px;
+}
+.indicators a {
+	color:white;
+}
+.amazon {
+	 position: relative;
+    top: 1956px;
+    right: 110px;
+	opacity:1
+}
+.twitter {
+	    position: relative;
+    top: 1616px;
+    right: 110px;
+	opacity:0;
+}
+
 #test-paragraph {
-	position: relative;
-    left: 80px;
-    top: 115px;
+	position: absolute;
+    left: 480px;
+    top: 21px;
     line-height: 30px;
     font-family: 'Montserrat', sans-serif;
     width: 380px;
@@ -156,7 +176,7 @@ h1 {
 	top:1350px;
 	width:585px;
 	height:450px;
-	right:0;
+	left:585px;
 	padding:0;
 	border-top:5px solid white;
 }
@@ -171,6 +191,30 @@ h1 {
 	position:relative;
 	top:200px;
 	right:10px;
+}
+.glyphicon-phone{
+	font-size:35px;
+}
+.phone-icon {
+	position: relative;
+    bottom: 130px;
+    right: -1px;
+}
+.glyphicon-map-marker {
+	font-size:35px;
+}
+.map-marker-icon {
+	    position: relative;
+    bottom: 160px;
+    right: 3px;
+}
+.glyphicon-envelope {
+	font-size:35px;
+}
+.envelope-icon {
+	position:relative;
+	bottom:130px;
+	right:3px;
 }
 .footer-sign-up {
 	position:absolute;
@@ -193,4 +237,10 @@ h1 {
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
+}
+#slider {
+	position: absolute;
+    left:570px;
+   	top: 1800px;
+	border-top:5px solid white;
 }
