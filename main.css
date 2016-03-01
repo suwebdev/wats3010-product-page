@@ -2,7 +2,13 @@
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
 body {
-    padding-top: 30px;
+    padding-top: 31px;
     padding-bottom: 20px;
-    color: green;
+}
+
+.bgimage {
+  background-image: url('../images/rabbit.jpg');
+  background-postion: center center;
+  background-size: cover; 
+  height: 400px; 
 }
