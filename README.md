@@ -62,7 +62,8 @@ It's common to put up work that is in-progress for feedback from the team and
 your clients. Since we are spending two weeks to build out this page, we should
 take the time to post up stuff and see how things are coming together.
 
-For this phase, your only deliverable is the in-progress site deployed to
+For this phase, in addition to your Status Update Report as described in the
+course shell, your only website deliverable is the in-progress site deployed to
 Github Pages.
 
 **Requirements**
