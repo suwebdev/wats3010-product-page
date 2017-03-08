@@ -6,16 +6,16 @@ body {
     padding-bottom: 20px;
     font-size: 15px;
     line-height: 1.8;
-    background-color: #008080;
-    text-shadow: 2px 2px black;
-    color: white;
+    /*background-color: #008080;*/
+    /*text-shadow: 2px 2px black;*/
+    /*color: white;*/
 }
 
 #header {
   /*background-color: #00cccc;*/
   border-style: hidden;
   padding: 1% 2% 1% 1%;
-  color: white;
+  /*color: white;*/
   position: relative;
 }
 
@@ -38,6 +38,8 @@ body {
   font-size: 27px;
   display: block;
   padding: 2%;
+  color: white;
+  text-shadow: 2px 2px black;
 }
 
 #testimonials {
