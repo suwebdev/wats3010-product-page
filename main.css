@@ -6,3 +6,18 @@ body {
     padding-bottom: 20px;
     color: green;
 }
+
+#video {
+  display: block;
+  margin: auto;
+  /*align-content: center;*/
+  background-color: black;
+}
+
+#navbar {
+  background-color: grey;
+  border-style: solid;
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 1%;
+}
