@@ -4,20 +4,43 @@
 body {
     padding-top: 30px;
     padding-bottom: 20px;
-    color: green;
+    font-size: 15px;
+    line-height: 1.8;
+    background-color: #008080;
+    text-shadow: 2px 2px black;
+    color: white;
 }
 
-#video {
-  display: block;
-  margin: auto;
-  /*align-content: center;*/
-  background-color: black;
+#header {
+  /*background-color: #00cccc;*/
+  border-style: hidden;
+  padding: 1% 2% 1% 1%;
+  color: white;
+  position: relative;
 }
 
 #navbar {
-  background-color: grey;
-  border-style: solid;
-  text-align: center;
+  text-align: right;
+  display: inline;
   font-size: 30px;
-  padding-bottom: 1%;
+}
+
+#vid-para {
+  background-color: #009999;
+}
+
+#video {
+  float: left;
+  margin-right: auto;
+}
+
+#description {
+  font-size: 27px;
+  display: block;
+  padding: 2%;
+}
+
+#testimonials {
+  float: left;
+  border: 5%;
 }
