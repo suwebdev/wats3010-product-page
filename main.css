@@ -11,11 +11,9 @@ body {
     /*color: white;*/
 }
 
-#header {
-  /*background-color: #00cccc;*/
+/*#header {
   border-style: hidden;
   padding: 1% 2% 1% 1%;
-  /*color: white;*/
   position: relative;
 }
 
@@ -23,7 +21,7 @@ body {
   text-align: right;
   display: inline;
   font-size: 30px;
-}
+}*/
 
 #vid-para {
   background-color: #009999;
