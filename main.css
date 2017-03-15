@@ -23,13 +23,14 @@ body {
   font-size: 30px;
 }*/
 
-#vid-para {
+.vid-para {
   background-color: #009999;
 }
 
-#video {
+.video {
   float: left;
-  margin-right: auto;
+  /*margin: auto;*/
+  padding-top: 3%;
 }
 
 #description {
