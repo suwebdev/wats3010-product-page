@@ -4,5 +4,44 @@
 body {
     padding-top: 30px;
     padding-bottom: 20px;
-    color: green;
+    font-size: 15px;
+    line-height: 1.8;
+    /*background-color: #008080;*/
+    /*text-shadow: 2px 2px black;*/
+    /*color: white;*/
+}
+
+/*#header {
+  border-style: hidden;
+  padding: 1% 2% 1% 1%;
+  position: relative;
+}
+
+#navbar {
+  text-align: right;
+  display: inline;
+  font-size: 30px;
+}*/
+
+.vid-para {
+  background-color: #009999;
+}
+
+.video {
+  float: left;
+  /*margin: auto;*/
+  padding-top: 3%;
+}
+
+#description {
+  font-size: 27px;
+  display: block;
+  padding: 2%;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+#testimonials {
+  float: left;
+  border: 5%;
 }
