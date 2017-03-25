@@ -44,7 +44,7 @@ money on it, and they want it to be featured prominently.)
 1.  Create a PDF wireframe of the page layout with exact text that will be used.
 2.  Choose and edit the text you will use according to your vision for the
     product page.
-3.  Create at least one other project planning document. You may choose from
+3.  Create at least TWO other project planning documents. You may choose from
     this list:
 
     * information architecture diagram
@@ -117,16 +117,6 @@ so you can design around those constraints.
 
 You have been provided with the Bootstrap CSS Framework
 (http://getbootstrap.com) linked into your HTML
-file. This framework gives you a range of styles you can leverage if you choose.
-You can use Bootstrap styles to accomplish a wide range of goals, and it can
-help you get a more professional feeling in your site.
+file. You should build your designs on top of Bootstrap. If you are an advanced
+student, you can choose to use another CSS framework to build upon.
 
-Bootstrap can be both a blessing and a curse. It will make some things very
-easy, but you may find yourself having trouble overriding some elements of the
-style if you veer away from what the framework does by default. This is the
-tradeoff of using a robust framework like this.
-
-Note: You are NOT obligated to use Bootstrap. If you feel it is too much to
-think about on this assignment, you are free to ignore it (just remove the
-``link`` tags in the ``head`` of your index.html) or replace it with another
-CSS framework. (There are dozens.)
