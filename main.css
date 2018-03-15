@@ -3,7 +3,7 @@
 
 body {
     padding-top: 0px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     color: blue;
 
 }
@@ -12,40 +12,45 @@ h2 {
   text-align: center;
   color: black;
 }
+#video {
+  background: linear-gradient(grey, lightblue);
+  align-content: center;
+}
 #about-us {
   padding: 100px;
-  background: linear-gradient(blue, yellow);
+  background: linear-gradient(lightblue, yellow);
+
 }
 #testimonials {
   padding: 100px;
-  background: linear-gradient(yellow, red);
+  background: linear-gradient(yellow, lightcoral);
+
 }
 #features {
   padding: 100px;
-  background: linear-gradient(red, purple);
+  background: linear-gradient(lightcoral, yellowgreen);
+
 }
 #contact {
   padding: 100px;
-  background: linear-gradient(purple, orange);
+  background: linear-gradient(yellowgreen, grey );
 }  
 
 a.nav-link:hover {
   border: white dotted 1px;
 }
-iframe {
-  margin: auto;
+a.navbrand {
+  color: white;
 }
-.navbar navbar-header {
-  align: center;
-  
+
 .btn-social-icon {
   padding: 0;
 }
 
 .fa {
   display: inline-block;
-  padding: 10px;
-  width: 40px;
+  padding: 5px;
+  width: 20px;
   text-align: center;
   text-decoration: none;
   border-radius: 10px;
@@ -63,4 +68,34 @@ iframe {
 .fa-twitter {
   background: #55ACEE;
   color: white;
+}
+.img-fluid {
+  max-width: 400px;
+}
+.card-img-top {
+  max-width: 200px;
+}
+.footer-flex {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: darkgray;
+}
+.footer-item-flex {
+  flex: 0 1 auto;
+}
+
+
+
+
+.page-header {
+ max-width: 1000px;
+}
+
+a.nav-link {
+  padding: 5px;
+}
+
+iframe {
+  margin: auto;
 }
