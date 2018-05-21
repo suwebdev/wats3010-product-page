@@ -1,20 +1,25 @@
-wats1010-product-page
+WATS 3010 Product Page Project
 =====================
 
 This repository contains the resources to use for the Imaginary Product Page
-assignment in WATS1010: Introduction to Web Development. In this project you
-are tasked with creating a single-page site to promote a product: The API
-Superstore. The API Superstore is a **fictional company** that offers a
+assignment in WATS3010: Introduction to Web Development. In this project you
+are tasked with creating a single-page site to promote a product. You may imageine 
+any product you wish, or you may build a website for an existing product. If you are
+overwhelmed by the idea of creating a whole corporate identity, or you cannot find
+a suitable product to represent, you can use the assets provided to you to make a 
+product page for The API Superstore. 
+
+The API Superstore is a **fictional company** that offers a
 catalog interface to APIs. To be honest, don't try to make too much technical
 sense of it all: This is a completely useless company and product in many ways.
 
-But that makes it all the more fun, right?
+Remember: You are free to use ANY PRODUCT or COMPANY for this project, but be aware that you are still required to have at least a video, logo, and other assets/elements to fill out your page. This may involve using tools you do not know how to use. If creating media assets is not something you're prepared for, then please use the API Superstore assets provided for you.
 
 As you work through this project, you will address six different
 requirements:
 
 1. Introduce the product
-2. Provide access to the explainer video (https://www.youtube.com/watch?v=L48g1ZWLMdo)
+2. Provide access to an explainer video (API Superstore video is here: https://www.youtube.com/watch?v=L48g1ZWLMdo)
 3. List features
 4. Provide user testimonials
 5. Provide ability for users to share links to the product page
@@ -41,7 +46,7 @@ money on it, and they want it to be featured prominently.)
 
 **Requirements**
 
-1.  Create a PDF wireframe of the page layout with exact text that will be used.
+1.  Create a PDF wireframe of the page layout with exact text that will be used. Show at least two screen sizes in your wireframes.
 2.  Choose and edit the text you will use according to your vision for the
     product page.
 3.  Create at least TWO other project planning documents. You may choose from
@@ -51,8 +56,9 @@ money on it, and they want it to be featured prominently.)
     * project timeline (represented in any way)
     * design comps
     * any images or illustrations you are planning to add to the site
+4.  Plan for at least one JavaScript-enabled feature (scrollspy, tabs, accordions, map embed, etc.) on your page.
 
-All of these documents should be placed in the design folder.
+All of these documents should be placed in the design folder and uploaded to Github. Ideally, these pages would be combined into a single, cohesive PDF in the form of a proposal document.
 
 Part Two: Product Page Preview
 ------------------------------
@@ -75,6 +81,7 @@ Github Pages.
     * The video should be embedded
     * You should have your content placed into the page
     * You should have partial styles applied to the page
+    * You should have general mobile responsiveness working for the layouts you've built.
 
 Part Three: Product Page
 ------------------------
@@ -90,11 +97,13 @@ better to pull back on ambition in order to create something more polished.
 Be sure you have addressed the six primary requirements of the page:
 
 1. Introduce the product
-2. Provide access to the explainer video
+2. Provide access to some video content
 3. List features
-4. Provide user testimonials
-5. Provide ability for users to share links to the product page
-6. Call to action link to get user to buy product
+4. User testimonials
+5. Links for users to share the product page
+6. Call to action link to get user to buy/sign up for the product
+7. Responsive to at least two screen sizes (mobile and desktop)
+8. Uses at least one JavaScript-enabled component of the Bootstrap framework (or another JS-enabled component from another source)
 
 Notes About Assets
 ---------------------
@@ -105,7 +114,11 @@ limited to these assets, and you have probably not been provided with all the
 assets you will need to make your page look great. You are expected to seek
 out elements that fit with your design goals and use them appropriately.
 
+If you are using your own assets, feel free to delete the API Superstore assets.
+
 **Video Explainer**
+
+You are required to have some video content on the page. If you cannot find suitable video content for your page, or if you are building a page for the API Superstore, use the video explainer provided for you.
 
 The video explainer for the API Superstore is located here:
 https://www.youtube.com/watch?v=L48g1ZWLMdo You should follow the YouTube embed
@@ -118,5 +131,7 @@ so you can design around those constraints.
 You have been provided with the Bootstrap CSS Framework
 (http://getbootstrap.com) linked into your HTML
 file. You should build your designs on top of Bootstrap. If you are an advanced
-student, you can choose to use another CSS framework to build upon.
+student, you can choose to use another CSS framework to build upon or build your layouts from scratch.
+
+Note that Boostrap also gives you access to features such as ScrollSpy, tabbed containers, and other JavaScript-powered interface elements. Feel free to use these to the fullest extent.
 
