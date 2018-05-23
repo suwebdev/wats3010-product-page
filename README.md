@@ -3,11 +3,11 @@ WATS 3010 Product Page Project
 
 This repository contains the resources to use for the Imaginary Product Page
 assignment in WATS3010: Introduction to Web Development. In this project you
-are tasked with creating a single-page site to promote a product. You may imageine 
+are tasked with creating a single-page site to promote a product. You may imageine
 any product you wish, or you may build a website for an existing product. If you are
 overwhelmed by the idea of creating a whole corporate identity, or you cannot find
-a suitable product to represent, you can use the assets provided to you to make a 
-product page for The API Superstore. 
+a suitable product to represent, you can use the assets provided to you to make a
+product page for The API Superstore.
 
 The API Superstore is a **fictional company** that offers a
 catalog interface to APIs. To be honest, don't try to make too much technical
@@ -74,7 +74,7 @@ Github Pages.
 
 **Requirements**
 
-1.  In-progress site build deployed to the ``gh-pages`` branch and visible on
+1.  In-progress site build deployed to the `gh-pages` branch and visible on
     your user.github.io site.
 2.  Demonstrated progress on:
 
@@ -108,7 +108,7 @@ Be sure you have addressed the six primary requirements of the page:
 Notes About Assets
 ---------------------
 
-This repository contains an ``assets`` folder that has logos for the company,
+This repository contains an `assets` folder that has logos for the company,
 the source text, and some additional assets you may wish to use. You are not
 limited to these assets, and you have probably not been provided with all the
 assets you will need to make your page look great. You are expected to seek
@@ -116,7 +116,7 @@ out elements that fit with your design goals and use them appropriately.
 
 If you are using your own assets, feel free to delete the API Superstore assets.
 
-**Video Explainer**
+### Video Explainer
 
 You are required to have some video content on the page. If you cannot find suitable video content for your page, or if you are building a page for the API Superstore, use the video explainer provided for you.
 
@@ -126,7 +126,7 @@ directions to embed the video into the page with appropriate settings and
 size. Take into account the sizes YouTube will let you use to embed the video
 so you can design around those constraints.
 
-**Bootstrap CSS Framework**
+### Bootstrap CSS Framework
 
 You have been provided with the Bootstrap CSS Framework
 (http://getbootstrap.com) linked into your HTML
@@ -135,3 +135,6 @@ student, you can choose to use another CSS framework to build upon or build your
 
 Note that Boostrap also gives you access to features such as ScrollSpy, tabbed containers, and other JavaScript-powered interface elements. Feel free to use these to the fullest extent.
 
+### FontAwesome
+
+[FontAwesome](https://fontawesome.com/) is an "icon font" that allows you to use a set of CSS classes to add icons to your pages. You must use the proper classes and naming patterns described in the FontAwesome directions, but you gain access to hundreds of icons that can be displayed at any size in the web browser. You can style them like any piece of text to match your theme, and FontAwesome provides lots of alternate classes to get just the layout and size you want. This is a very common way to handle icons in websites. You can learn more about how to work with FontAwesome here: https://fontawesome.com/how-to-use/svg-with-js#basic-use
