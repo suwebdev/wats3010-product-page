@@ -74,7 +74,7 @@ Github Pages.
 
 **Requirements**
 
-1.  In-progress site build deployed to the `gh-pages` branch and visible on
+1.  In-progress site build deployed to the `master` branch and visible on
     your user.github.io site.
 2.  Demonstrated progress on:
 
