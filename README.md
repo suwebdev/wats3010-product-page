@@ -3,7 +3,7 @@ WATS 3010 Product Page Project
 
 This repository contains the resources to use for the Imaginary Product Page
 assignment in WATS3010: Introduction to Web Development. In this project you
-are tasked with creating a single-page site to promote a product. You may imageine
+are tasked with creating a single-page site to promote a product. You may imagine
 any product you wish, or you may build a website for an existing product. If you are
 overwhelmed by the idea of creating a whole corporate identity, or you cannot find
 a suitable product to represent, you can use the assets provided to you to make a
